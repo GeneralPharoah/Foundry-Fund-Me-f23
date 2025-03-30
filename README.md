@@ -1,7 +1,8 @@
-FundMe Project
+**FundMe Project**
+
 The FundMe project is a simple Ethereum smart contract that allows users to contribute (fund) ETH to a contract and allows the owner to withdraw the accumulated funds. This contract interacts with Chainlink's Price Feed to ensure the amount of ETH contributed meets a minimum threshold value (in USD).
 
-Table of Contents
+**Table of Contents**
 Overview
 
 Technologies Used
@@ -18,10 +19,10 @@ Security Considerations
 
 License
 
-Overview
+**Overview**
 The FundMe contract provides a platform for users to fund ETH into a smart contract with the requirement that the value is at least 5 USD (or any other value you wish to set as a threshold). The contract owner has special privileges to withdraw all the funds accumulated. This contract also implements fallback() and receive() functions to handle incoming ETH transfers in any format.
 
-Key Features:
+**Key Features:**
 Fund Function: Allows users to fund ETH into the contract, ensuring the amount meets a minimum threshold.
 
 Withdraw Function: Allows the contract owner to withdraw all the funds.
