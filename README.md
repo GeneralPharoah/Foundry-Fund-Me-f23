@@ -3,6 +3,7 @@
 The FundMe project is a simple Ethereum smart contract that allows users to contribute (fund) ETH to a contract and allows the owner to withdraw the accumulated funds. This contract interacts with Chainlink's Price Feed to ensure the amount of ETH contributed meets a minimum threshold value (in USD).
 
 **Table of Contents**
+
 Overview
 
 Technologies Used
@@ -75,7 +76,8 @@ receive(): A special function triggered when the contract receives ETH with no d
 
 Price Conversion: The fund() function uses Chainlink's AggregatorV3Interface to get the ETH to USD conversion rate.
 
-How to Use
+**How to Use**
+
 1. Deploy the Contract
 To deploy the contract, you will need to deploy it to an Ethereum-compatible network (such as Rinkeby, Goerli, or the Ethereum mainnet).
 
